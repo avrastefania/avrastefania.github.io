@@ -1,0 +1,74 @@
+/* Cover */
+.cover{
+    background-image: url("../img/castle.jpg");
+    background-position: center;
+}
+
+/* Non selectable text */
+.noselect{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+/* Breathing icon */
+.customicon{
+    color:#8b8b9b;
+}
+
+.customicon:hover{
+    color:#54516a;
+}
+
+/* unvisited link */
+a:link {
+    color: inherit;
+}
+  
+/* visited link */
+a:visited {
+    color: inherit;
+}
+
+/* Gallery */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.column {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 4px;
+}
+
+.profile-img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-height: 250px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 48%;
+        max-width: 48%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 48%;
+        max-width: 48%;
+    }
+}
