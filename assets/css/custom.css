@@ -40,8 +40,14 @@ a:visited {
 }
 
 .column {
-    flex: 48%;
-    max-width: 48%;
+    flex: 49%;
+    max-width: 49%;
+    padding: 0 4px;
+}
+
+.full-column {
+    flex: 100%;
+    max-width: 100%;
     padding: 0 4px;
 }
 
@@ -52,6 +58,12 @@ a:visited {
 }
 
 .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.full-column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
